@@ -1,0 +1,26 @@
+{
+  "devices": [
+    {
+      "codename": "angler",
+      "name": "Nexus 6P",
+      "oem": "Google / Huawei",
+      "android": "Android 15 (lineage-22.2)",
+      "ram": "3 GB",
+      "kernel": "Linux 3.10",
+      "status": "Active Bringup",
+      "maintainer": "DumbOS Team",
+      "notes": "Requires 3-button / gesture NavigationBar fix (frameworks/base commit 3a8b1ea)."
+    },
+    {
+      "codename": "serrano3gxx",
+      "name": "Galaxy S4 Mini (3G)",
+      "oem": "Samsung",
+      "android": "Android 14 (lineage-21.0)",
+      "ram": "1.5 GB",
+      "kernel": "Linux 3.4",
+      "status": "Boot Verified",
+      "maintainer": "DumbOS Team",
+      "notes": "Use DUMBOS_STRIP_GMSCORE_ABI=true (~180 MiB /system saved). Native vmpressure LMKD."
+    }
+  ]
+}
